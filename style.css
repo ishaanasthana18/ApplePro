@@ -29,7 +29,6 @@ html, body{
     padding: 0px 20px;
     height: 7vh;
     width: 50vw;
-  
     position: absolute;
     top: 0%;
     left: 50%;
@@ -47,7 +46,7 @@ html, body{
     font-weight: 400;
     color: white;
 }
-#page>nav>video{
+#page>video{
     height: 100%;
     width: 50%;
     object-fit: cover;
