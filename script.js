@@ -347,7 +347,7 @@ snap: "frame",
 ease: `none`,
 scrollTrigger: {
   scrub: 0.15,
-  trigger: `#page8>canvas`,
+  trigger: `canvas`,
   //   set start end according to preference
   start: `top top`,
   end: `600% top`,
@@ -384,7 +384,7 @@ ctx.drawImage(
 }
 ScrollTrigger.create({
 
-trigger: "#page8>canvas",
+trigger: "canvas",
 pin: true,
 // markers:true,
 scroller: `#main`,
