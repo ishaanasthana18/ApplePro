@@ -450,12 +450,36 @@ html, body{
     position: relative;
     height: 90%;
     width: 45%;
-    background-image: url(url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg););
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_top__k3b8lzqd1l2m_large.jpg);
+    background-size: cover;
 }
 
 #right15{
     position: relative;
     height: 90%;
     width: 45%;
-    background-color: #4d4d4d;
+    background-image: url(https://www.apple.com/v/apple-vision-pro/a/images/overview/design/glass_side__gm4agomrwl2e_large.jpg);
+    background-size: cover;
+}
+
+#page16{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#center-page16{
+    height: 90%;
+    width: 95%;
+    position: relative;
+    overflow: hidden;
+}
+
+#center-page16{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }
