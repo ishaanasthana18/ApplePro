@@ -663,4 +663,16 @@ html, body{
     width: 50%;
 }
 
-#page
+#page24{
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-color: #000;
+}
+
+#page24>img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0;
+}

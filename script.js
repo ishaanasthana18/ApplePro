@@ -507,3 +507,43 @@ end: `80% top`,
 });
 }
 canvas1();
+
+
+var t13 = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#page22',
+    start:'top top',
+    scrub: 1,
+    scroller: '#main',
+    pin: true
+  }
+})
+
+t13.to('#page22>#troff',{
+  opacity: 0
+})
+
+var t14 = gsap.timeline({
+  scrollTrigger:{
+    trigger:'#page23',
+    start:'top top',
+    scrub: 1,
+    scroller: '#main',
+    pin: true
+  }
+})
+
+t14.to('#page23>#snroff',{
+  opacity: 0
+})
+
+gsap.to("#page24>img",{
+  scrollTrigger:{
+    trigger:'#page24>img',
+    start:'top bottom',
+    end:'bottom 60%',
+    scrub: .5,
+    scroller: '#main'
+  },
+  opacity:1
+})
